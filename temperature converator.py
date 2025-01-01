@@ -67,3 +67,7 @@ while running:
         print("Thank you for using the Temperature Convertor.")
         break
 
+'''important notes:
+1. when calling a defined function for code execution,using parentheses() is required,just writing the function name will only call the function,not execute it.
+2. when taking input from user .strip,.title,.upper etc. commands should be used outside of the bracket,using them inside the function will only make commands be executed on the string inside.'''
+
