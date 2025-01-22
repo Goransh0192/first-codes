@@ -108,5 +108,3 @@ while balance > 0:
         break
     else:
         continue
-'''2024-12-23: You can use a `while` loop to keep the game running until the player decides to quit.'''
-
