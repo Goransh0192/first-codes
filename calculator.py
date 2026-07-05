@@ -4,10 +4,9 @@ result of the operation.'''
 
 while True:
     input_a = float(input("Enter the first number: "))
-    input_b = float(input("Enter the second number: "))
-
     operation = input("Please enter the operation (+, -, *, /): ")
 
+    input_b = float(input("Enter the second number: "))
     if operation == '+':
         print(f"The result is: {input_a + input_b}")
     elif operation == '-':
@@ -20,7 +19,7 @@ while True:
         else:
             print("Error: Division by zero is not allowed.")
     else:
-        print("Invalid operation")
+        print("Invalid operation!!!")
     again = input("Do you want to perform another calculation? (yes/no): ")
     if again.lower() != "yes":
         break
