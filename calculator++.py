@@ -72,3 +72,4 @@ while True:
     ask2 = input("Do you want to use the calculator again? (yes/no): ")
     if ask2.lower() != "yes":
         break
+ 
